@@ -1,0 +1,42 @@
+<!doctype = html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- Cabecera -->
+<header> 
+    <a href="index.html">
+    <h1><img src="img/logo.jpg" width="100" alt="">Houeste</h1>
+    </a>
+<!-- Barra de navegación -->
+    <nav>
+        <ul> 
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </nav>
+</header>
+
+    <!-- Contenido principal -->
+    <main>
+        <h1>Enviar Mensaje al Anunciante</h1>
+
+        <form action="detalle.html" method="POST">
+            <label for="opciones">Selecciona una motivo:</label>
+                <select id="opciones" name="opciones">
+                    <option value="opcion1">Más información</option>
+                    <option value="opcion2">Solicitar una cita</option>
+                    <option value="opcion3">Comunicar una oferta</option>
+                </select><br>
+            <label for="nombre">Nombre:<input type="text" name="usuario" id="usuario" required></label><br>
+            <label for="email">Correo Electrónico:<input type="email" name="email" id="email" required></label><br>
+            <label for="mensaje">Mensaje:<textarea name="mensaje" rows="5" id="mensaje" required></textarea></label>
+            <input type="submit" value="Enviar Mensaje">
+        </form>
+
+    </main>
+
+</body>

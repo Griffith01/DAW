@@ -1,0 +1,58 @@
+<!doctype = html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busqueda Houeste</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body> 
+<!-- Cabecera -->
+<header> 
+    <a href="index.html">
+    <h1><img src="img/logo.jpg" width="100" alt="">Houeste</h1>
+</a>
+<!-- Barra de navegación -->
+    <nav>
+        <ul> 
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nuevo.html">Nuevo Usuario </a></li>
+            <li><a href="index.html">Salir</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Contenido principal -->
+<h2>Búsqueda avanzada</h2>
+<!-- Formulario de búsqueda -->
+    <main>
+        <aside>
+            <form action="resultado.html" method="get">
+                <label for="tipo">Tipo de anuncio: </label>
+                    <select name="tipo" id="tipo">
+                        <option value="venta">Venta</option>
+                        <option value="alquiler">Alquiler</option>
+                    </select>
+                <label for="tip">Tipo de vivienda: </label>
+                    <select name="tipo2" id="tipo2">
+                        <option value="obra">Obra Nueva</option> 
+                        <option value="vivienda">Vivienda</option>
+                        <option value="oficina">Oficina</option>
+                        <option value="local">Local</option>
+                        <option value="garage">Garaje</option>
+                    </select>
+                <label for="ciudad"> Ciudad: <input type="text" name="ciudad" id="ciudad"></label>
+                <label for="pais"> País: <input type="text" name="pais" id="pais"></label>
+                <label for="contra"> Precio: <input type="number" name="precio" id="precio"></label>
+                <label for="nacimiento"> Fecha de publicación: <input type="date" name="publicacion" id="publicacion" max="2025-06-30"></label>
+                <a href="resultado.html">Buscar</a>
+
+            </form>
+        </aside>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 DAW Álvaro Aldea y Noelia López</p>
+    </footer>
+</body>
+</html>
