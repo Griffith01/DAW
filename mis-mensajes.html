@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mis mensajes</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        table, tr, th, td {
+            border: 3px solid #000;
+        }
+    </style>
 </head>
 <body>
 <!-- Cabecera -->
@@ -22,7 +26,46 @@
 
     <!-- Contenido principal -->
     <main>
-
+        
+        <h1>Mis mensajes</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipo de Mensaje</th>
+                        <th>Texto del Mensaje</th>
+                        <th>Fecha del Mensaje</th>
+                        <th>Usuario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Enviado</td>
+                        <td>YYYYYYYYYYYYYYYYYY YYYYYYYYYYYYYYYY.</td>
+                        <td>01/10/2024</td>
+                        <td>Juan</td>
+                    </tr>
+                    <tr>
+                        <td>Enviado</td>
+                        <td>YYYYYYYYYYYY YYYYYYY YYYYYYY YYYYYYYYYYYYYYYY YYYYYY.</td>
+                        <td>01/10/2024</td>
+                        <td>Laura</td>
+                    </tr>
+        
+                    <!-- Ejemplo de mensajes recibidos -->
+                    <tr>
+                        <td>Recibido</td>
+                        <td>YYYYYYYYYY YYYYYYYYYYYYYYYYYYYYYYYY.</td>
+                        <td>01/10/2024</td>
+                        <td>Ana</td>
+                    </tr>
+                    <tr>
+                        <td>Recibido</td>
+                        <td>YYYYYYYYYYYYYYYYYYYYY YYYYYYYYYYYYY.</td>
+                        <td>01/10/2024</td>
+                        <td>Carlos</td>
+                    </tr>
+                </tbody>
+            </table>
     </main>
 
 </body>
