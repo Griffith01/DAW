@@ -1,0 +1,67 @@
+@import url(style.css);
+
+/* print.css */
+
+@media print {
+
+    /* General styles */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #000;
+    }
+
+    /* Hide elements not needed for print */
+    .buscador, 
+    .search-box, 
+    .registrarse, 
+    .inicio {
+        display: none;
+    }
+
+    /* Ensure links are visible with their URLs */
+    a::after {
+        content: " (" attr(href) ")";
+    }
+
+    input::after {
+        content: " (" attr(href) ")";
+    }
+
+
+    /* Adjust layout */
+    header, footer {
+        text-align: center;
+    }
+
+    /* Avoid page breaks within these elements */
+    figure {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    /* Ensure headings and sections are not split across pages */
+    h2, main {
+        page-break-before: auto;
+        page-break-after: auto;
+        page-break-inside: avoid;
+    }
+
+    /* Control breaks for each ad block */
+    a {
+        display: block;
+        page-break-inside: avoid;
+        margin-bottom: 10px;
+    }
+
+    /* Ensure footer stays on its own page if necessary */
+    footer {
+        page-break-inside: avoid;
+    }
+}

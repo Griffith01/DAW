@@ -1,3 +1,12 @@
+/*variables root*/
+
+:root{
+    --colorheader: #153847;
+    --colorfondo: #d8eef5;
+    --colorhover: #0056b3;
+    --colorsuave: #f5f5f5;
+}
+
 .grid-container {
     display: grid;
     grid-gap: 20px; 
@@ -10,8 +19,8 @@
     max-width: 800px; /* Limita el ancho del formulario */
     margin: 0 auto; /* Centra el formulario en la pantalla */
     padding: 20px;
-    background-color: #f5f5f5; /* Fondo suave */
-    border: 2px solid #153847; /* Borde oscuro */
+    background-color: var(--colorsuave); /* Fondo suave */
+    border: 2px solid var(--colorheader); /* Borde oscuro */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     font-family: Arial, sans-serif;
@@ -40,7 +49,7 @@
 .frespuesta a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #153847; /* Fondo oscuro */
+    background-color: var(--colorheader); /* Fondo oscuro */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -51,7 +60,7 @@
 }
 
 .frespuesta a:hover {
-    background-color: #0056b3; /* Efecto hover para el botón */
+    background-color: var(--colorhover); /* Efecto hover para el botón */
 }
 
 .frespuesta p:last-child {
@@ -77,8 +86,8 @@
     max-width: 800px;
     margin: 0 auto; /* Centra el formulario en la pantalla */
     padding: 20px;
-    background-color: #f5f5f5; /* Color de fondo suave */
-    border: 2px solid #153847; /* Borde de color */
+    background-color: var(--colorsuave); /* Color de fondo suave */
+    border: 2px solid var(--colorheader); /* Borde de color */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
     font-family: Arial, sans-serif;
@@ -132,7 +141,7 @@
 .folleto input[type="submit"] {
     width: 100%;
     padding: 15px;
-    background-color: #153847;
+    background-color: var(--colorheader);
     color: #fff;
     font-size: 1.2em;
     font-weight: bold;
@@ -143,7 +152,7 @@
 }
 
 .folleto input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: var(--colorhover);
 }
 
 .folleto output {
@@ -153,14 +162,12 @@
 }
 
 .folleto input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: var(--colorhover);
 }
 
 .folleto select, .folleto input, .folleto textarea {
     margin-bottom: 10px;
 }
-
-
 
 
 
@@ -171,8 +178,8 @@
     max-width: 600px;
     margin: 0 auto; /* Centra el formulario horizontalmente */
     padding: 20px;
-    background-color: #f5f5f5; /* Color de fondo suave */
-    border: 2px solid #153847; /* Borde de color azul oscuro */
+    background-color: var(--colorsuave); /* Color de fondo suave */
+    border: 2px solid var(--colorheader); /* Borde de color azul oscuro */
     border-radius: 10px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
@@ -203,7 +210,7 @@
 }
 
 .mensaje input[type="submit"] {
-    background-color: #153847;
+    background-color: var(--colorheader);
     color: #fff;
     cursor: pointer;
     font-size: 1.1em;
@@ -212,7 +219,7 @@
 }
 
 .mensaje input[type="submit"]:hover {
-    background-color: #0056b3; /* Cambio de color en hover */
+    background-color: var(--colorhover); /* Cambio de color en hover */
 }
 
 
@@ -229,7 +236,7 @@
     margin: 100px auto; /* Centra el contenedor horizontalmente y da espacio vertical */
     
     /* Estilo del borde y fondo */
-    border: 3px solid #153847; /* Borde de 3px con color azul oscuro */
+    border: 3px solid var(--colorheader); /* Borde de 3px con color azul oscuro */
     background-color: #fcfcfc; /* Fondo de color azul claro */
     border-radius: 10px; /* Bordes redondeados */
     
@@ -241,7 +248,7 @@
 }
 
 .aviso a {
-    color: #0056b3; /* Color del enlace */
+    color: var(--colorhover); /* Color del enlace */
     text-decoration: none;
 }
 
@@ -263,7 +270,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 15px;
-    background-color: #f5f5f5;
+    background-color: var(--colorsuave);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -303,7 +310,7 @@
 }
 
 .busbuton:hover {
-    background-color: #0056b3; 
+    background-color: var(--colorhover); 
     color: white;
 }
 
@@ -354,7 +361,7 @@ h1 > img{
     font-size: 16px;
 }
 #registro form input[type="submit"]:hover {
-    background-color: #153847;
+    background-color: var(--colorheader);
 }
 #registro form a {
     display: inline-block;
@@ -405,7 +412,7 @@ tbody tr:nth-child(even) {
 @media (min-width: 1024px) {
 
     body{
-        background-color: #d8eef5;
+        background-color: var(--colorfondo);
     }
 
     .grid-container {
@@ -415,7 +422,7 @@ tbody tr:nth-child(even) {
 
 
     header{
-        background-color: #153847;
+        background-color: var(--colorheader);
         width: 100%;
         height: 50%;
     }
@@ -507,7 +514,7 @@ tbody tr:nth-child(even) {
     
 
      .login a:hover{
-        background-color: #0056b3;
+        background-color: var(--colorhover);
     } 
 
 
@@ -570,7 +577,7 @@ tbody tr:nth-child(even) {
     }
 
     .buscado:hover {
-        background-color: #153847;
+        background-color: var(--colorheader);
     }
 
 
@@ -586,7 +593,7 @@ tbody tr:nth-child(even) {
     }
 
     .advanced-search-link:hover{
-        background-color: #0056b3;
+        background-color: var(--colorhover);
     }
 
     #busqueda {
@@ -620,11 +627,11 @@ tbody tr:nth-child(even) {
 
 
     body{
-        background-color: #d8eef5;
+        background-color: var(--colorfondo);
     }
 
     header{
-        background-color: #153847;
+        background-color: var(--colorheader);
         width: 100%;
         height: 50%;
 
@@ -713,7 +720,7 @@ tbody tr:nth-child(even) {
     
 
      .login a:hover{
-        background-color: #0056b3;
+        background-color: var(--colorhover);
     } 
 
 
@@ -774,7 +781,7 @@ tbody tr:nth-child(even) {
     }
 
     .buscado:hover {
-        background-color: #153847;
+        background-color: var(--colorheader);
     }
 
 
@@ -790,7 +797,7 @@ tbody tr:nth-child(even) {
     }
 
     .advanced-search-link:hover{
-        background-color: #0056b3;
+        background-color: var(--colorhover);
     }
 
     #busqueda {
@@ -816,11 +823,11 @@ tbody tr:nth-child(even) {
 
 
     body{
-        background-color: #d8eef5;
+        background-color: var(--colorfondo);
     }
 
     header{
-        background-color: #153847;
+        background-color: var(--colorheader);
         width: 100%;
         height: 50%;
 
@@ -908,7 +915,7 @@ tbody tr:nth-child(even) {
     
 
      .login a:hover{
-        background-color: #0056b3;
+        background-color: var(--colorhover);
     } 
 
     .inicio{
@@ -968,7 +975,7 @@ tbody tr:nth-child(even) {
     }
 
     .buscado:hover {
-        background-color: #153847;
+        background-color: var(--colorheader);
     }
 
 
@@ -984,7 +991,7 @@ tbody tr:nth-child(even) {
     }
 
     .advanced-search-link:hover{
-        background-color: #0056b3;
+        background-color: var(--colorhover);
     }
 
     #busqueda {
