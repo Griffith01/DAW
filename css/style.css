@@ -1009,3 +1009,33 @@ tbody tr:nth-child(even) {
     }
 
 }
+
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Para centrar la tabla en su columna */
+.columna-izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Alinea el contenido hacia la parte superior */
+    align-items: center; /* Centra la tabla horizontalmente */
+    height: 100%; /* Asegura que ocupe toda la altura disponible */
+    text-align: center; /* Opcional, para centrar el texto */
+    padding-top: 20px; /* Ajuste opcional para añadir un poco de espacio desde arriba */
+}
+
+/* Estilo cuando la pantalla es menor o igual a 500px */
+@media (max-width: 500px) {
+    .contenedor {
+        flex-direction: column; /* Cambia a disposición vertical */
+        align-items: center; /* Centra ambos elementos horizontalmente */
+    }
+
+    .columna-izquierda, .columna-derecha {
+        width: 100%; /* Asegura que cada columna ocupe todo el ancho */
+    }
+}
