@@ -1,0 +1,14 @@
+@import url(style.css);
+
+:root {
+    --azul-oscuro: #335768;
+    --azul-medio: #86c4d6;
+    --azul-claro: #a1c9d9;
+    --azul-blanco: #d8eef5;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+
+body {
+    font-size: 2em;
+}

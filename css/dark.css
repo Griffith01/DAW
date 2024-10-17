@@ -1,0 +1,22 @@
+@import url(style.css);
+
+:root {
+    --azul-oscuro: #335768;
+    --azul-medio: #86c4d6;
+    --azul-claro: #a1c9d9;
+    --azul-blanco: #d8eef5;
+    --negro: #000000;
+    --blanco: #ffffff;
+}
+:root{
+    --colorheader: #153847;
+    --colorfondo: #d8eef5;
+    --colorhover: #0056b3;
+    --colorsuave: #f5f5f5;
+}
+
+body {
+    background-color: var(--colorheader);
+    color: var(--colorsuave);
+}
+
