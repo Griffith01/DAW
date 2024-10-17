@@ -5,6 +5,7 @@
     --colorfondo: #d8eef5;
     --colorhover: #0056b3;
     --colorsuave: #f5f5f5;
+    --colormedio: #86c4d6;
 }
 
 .grid-container {
@@ -323,7 +324,7 @@ h1 > img{
 
 /* REGISTRARSE O LOGIN */
 #registro form {
-    background-color: #86c4d6;
+    background-color: var(--colormedio);
     padding: 20px;
     border-radius: 10px;
     max-width: 400px;
@@ -404,7 +405,7 @@ tbody tr:nth-child(odd) {
     background-color: #a1c9d9;
 }
 tbody tr:nth-child(even) {
-    background-color: #86c4d6;
+    background-color: var(--colormedio);
 }
 
 
@@ -524,7 +525,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 20px;
         padding: 15px ;
-        background-color: #86c4d6;
+        background-color: var(--colormedio);
         justify-items: center;
     }
 
@@ -535,7 +536,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 20px;
         padding: 15px ;
-        background-color: #86c4d6;
+        background-color: var(--colormedio);
         justify-items: center;
     }
 
@@ -588,7 +589,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 10px auto; 
         padding: 8px;
-        background-color: #86c4d6 ;
+        background-color: var(--colormedio);
         width: 150px;
     }
 
@@ -730,7 +731,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 20px;
         padding: 15px ;
-        background-color: #86c4d6;
+        background-color: var(--colormedio);
         justify-items: center;
     }
 
@@ -741,7 +742,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 20px;
         padding: 15px ;
-        background-color: #86c4d6;
+        background-color: var(--colormedio);
         justify-items: center;
     }
 
@@ -792,7 +793,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 10px auto; 
         padding: 8px;
-        background-color: #86c4d6 ;
+        background-color: var(--colormedio);
         width: 150px;
     }
 
@@ -923,7 +924,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 20px;
         padding: 15px ;
-        background-color: #86c4d6;
+        background-color: var(--colormedio);
         justify-items: center;
     }
 
@@ -934,7 +935,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 20px;
         padding: 15px ;
-        background-color: #86c4d6;
+        background-color: var(--colormedio);
         justify-items: center;
     }
 
@@ -986,7 +987,7 @@ tbody tr:nth-child(even) {
         border-radius: 5px;
         margin: 10px auto; 
         padding: 8px;
-        background-color: #86c4d6 ;
+        background-color: var(--colormedio);
         width: 150px;
     }
 

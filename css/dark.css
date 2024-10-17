@@ -1,22 +1,64 @@
 @import url(style.css);
 
-:root {
-    --azul-oscuro: #335768;
-    --azul-medio: #86c4d6;
-    --azul-claro: #a1c9d9;
-    --azul-blanco: #d8eef5;
-    --negro: #000000;
-    --blanco: #ffffff;
-}
-:root{
-    --colorheader: #153847;
-    --colorfondo: #d8eef5;
-    --colorhover: #0056b3;
-    --colorsuave: #f5f5f5;
-}
-
 body {
     background-color: var(--colorheader);
     color: var(--colorsuave);
+
 }
 
+figcaption {
+    color: var(--colorfondo);
+}
+
+header{
+    background-color: var(--colormedio);
+}
+
+
+.inicio{
+    background-color: var(--colorfondo);
+}
+
+.registrarse{
+    background-color: var(--colorfondo);
+}
+
+.advanced-search-link {
+    background-color: var(--colorfondo);
+}
+
+h1 {
+    color: var(--colorheader);
+}
+
+h1 {
+    color: var(--colorsuave);
+}
+
+.bavanzada form {
+    background-color: var(--colormedio);
+}
+
+.aviso {
+    background-color: var(--colormedio);
+}
+
+figure {
+    background-color: var(--colormedio);
+}
+
+figcaption {
+    color: #000;
+}
+
+.mensaje {
+    background-color: var(--colormedio);
+}
+
+.folleto {
+    background-color: var(--colormedio);
+}
+
+table {
+    color: var(--colorheader);
+}
