@@ -432,10 +432,11 @@ tbody tr:nth-child(even) {
         text-align: center;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: #a1c9d9;
+        margin: 0;
     }
 
     h1 > img{
-        display: flex;    
+        margin-right: 10px;  
     }
 
 
