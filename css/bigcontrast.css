@@ -28,7 +28,7 @@ header{
     background-color: var(--colorfondo);
 }
 
-a, a:hover, a:focus, a:link{
+a, a:hover,  a:focus, a:link{
     color: var(--colorsuave);
 }
 
@@ -71,10 +71,6 @@ figcaption {
 }
 
 footer {
-    color: var(--colorheader);
-}
-
-.declaracion{
     color: var(--colorheader);
 }
 
