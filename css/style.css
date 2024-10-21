@@ -479,7 +479,7 @@ tbody tr:nth-child(even) {
     }
 
     a, a:hover, a:focus, a:link{
-        color: black;
+        color: var(--colorhover);
     }
 
     main {
@@ -688,7 +688,7 @@ tbody tr:nth-child(even) {
     }
 
     a, a:hover, a:focus, a:link{
-        color: black;
+        color: var(--colorhover);;
     }
 
     main {
@@ -881,7 +881,7 @@ tbody tr:nth-child(even) {
     }
 
     a, a:hover, a:focus, a:link{
-        color: black;
+        color: var(--colorhover);;
     }
 
     main {
