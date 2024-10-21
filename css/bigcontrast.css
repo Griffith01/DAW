@@ -1,6 +1,14 @@
-@import url(pocCon.css);
-@import url(big.css);
 @import url(style.css);
+
+/*Poco contraste y letra grande*/
+
+:root{
+    --colorheader: #153847;
+    --colorfondo: #d8eef5;
+    --colorhover: #0056b3;
+    --colorsuave: #f5f5f5;
+    --colormedio: #86c4d6;
+}
 
 body {
     font-size: 2em;
