@@ -478,7 +478,7 @@ tbody tr:nth-child(even) {
         text-decoration: none;
     }
 
-    a, a:hover, a:visited, a:focus, a:link{
+    a, a:hover, a:focus, a:link{
         color: black;
     }
 
@@ -548,6 +548,11 @@ tbody tr:nth-child(even) {
         padding: 20px 0px; 
         width: 100%; 
         position: relative; 
+    }
+
+    .declaracion{
+        color: white;
+        text-decoration: none;
     }
     
     
@@ -682,7 +687,7 @@ tbody tr:nth-child(even) {
         text-decoration: none;
     }
 
-    a, a:hover, a:visited, a:focus, a:link{
+    a, a:hover, a:focus, a:link{
         color: black;
     }
 
@@ -875,7 +880,7 @@ tbody tr:nth-child(even) {
         text-decoration: none;
     }
 
-    a, a:hover, a:visited, a:focus, a:link{
+    a, a:hover, a:focus, a:link{
         color: black;
     }
 
