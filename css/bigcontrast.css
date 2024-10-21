@@ -74,6 +74,10 @@ footer {
     color: var(--colorheader);
 }
 
+.declaracion{
+    color: var(--colorheader);
+}
+
 .folleto {
     color: var(--colormedio);
 }
