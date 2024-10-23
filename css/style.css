@@ -16,6 +16,7 @@
     padding: 20px;
 }
 
+
 /*frespuesta*/
 .frespuesta {
     max-width: 800px; /* Limita el ancho del formulario */
@@ -1011,10 +1012,22 @@ tbody tr:nth-child(even) {
         line-height: 0;
     }
 
+    .columnas {
+         flex-direction: column;
+     }
+
+    .columna-izquierda, .columna-derecha {
+    flex: 1;
+}
+ 
+
 }
 
 
+/*columnas*/
+
 .columnas {
+   /* flex-direction: column;*/
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -1029,7 +1042,14 @@ tbody tr:nth-child(even) {
     height: 100%; /* Asegura que ocupe toda la altura disponible */
     text-align: center; /* Opcional, para centrar el texto */
     padding-top: 20px; /* Ajuste opcional para añadir un poco de espacio desde arriba */
+    /*order: 2;*/
 }
+
+ .columna-derecha {
+    order: 1; /* La columna derecha se mantiene arriba */
+} 
+
+
 
 /* Estilo cuando la pantalla es menor o igual a 500px */
 @media (max-width: 500px) {
