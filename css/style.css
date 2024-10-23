@@ -158,15 +158,38 @@
     background-color: var(--colorhover);
 }
 
+.folleto input[type="submit"]:hover {
+    background-color: var(--colorhover);
+}
+
+.folleto input[type="button"] {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--colorheader);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.folleto input[type="button"]:hover {
+    background-color: var(--colorhover);
+}
+
+.folleto input[type="button"]:hover {
+    background-color: var(--colorhover);
+}
+
+
 .folleto output {
     display: inline-block;
     padding-left: 10px;
     font-weight: bold;
 }
 
-.folleto input[type="submit"]:hover {
-    background-color: var(--colorhover);
-}
 
 .folleto select, .folleto input, .folleto textarea {
     margin-bottom: 10px;
@@ -207,11 +230,6 @@
     box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
 }
 
-.mensaje select, 
-.mensaje textarea {
-    background-color: #fff;
-}
-
 .mensaje input[type="submit"] {
     background-color: var(--colorheader);
     color: #fff;
@@ -223,6 +241,35 @@
 
 .mensaje input[type="submit"]:hover {
     background-color: var(--colorhover); /* Cambio de color en hover */
+}
+
+.mensaje input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box; /* Asegura que el padding no afecte al ancho total */
+}
+
+.mensaje input[type="button"] {
+    background-color: var(--colorheader);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.mensaje input[type="button"]:hover {
+    background-color: var(--colorhover); /* Cambio de color en hover */
+}
+
+.mensaje select, 
+.mensaje textarea {
+    background-color: #fff;
 }
 
 
@@ -366,6 +413,20 @@ h1 > img{
 #registro form input[type="submit"]:hover {
     background-color: var(--colorheader);
 }
+
+#registro form input[type="button"] {
+    padding: 10px;
+    background-color: #335768;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#registro form input[type="button"]:hover {
+    background-color: var(--colorheader);
+}
+
 #registro form a {
     display: inline-block;
     margin-top: 10px;
