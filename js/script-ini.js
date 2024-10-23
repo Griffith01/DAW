@@ -1,3 +1,4 @@
+// INICIAR SESIÓN
 function botonEntrar(){
 
     var mensaje = "";
@@ -8,11 +9,13 @@ function botonEntrar(){
         msg.remove();
     });
 
-    if(document.getElementById("user").value.replaceAll(" ","").replaceAll("\t") == "")
-        mensaje+= "Escribe el nombre de usuario\n"
+    if(document.getElementById("user").value.replaceAll(" ","").replaceAll("\t") == "") {
+        mensaje += "Escribe el nombre de usuario\n";
+    }
 
-    if(document.getElementById("contra").value.replaceAll(" ","").replaceAll("\t") == "")
-        mensaje+= "Escribe la contraseña\n"
+    if(document.getElementById("contra").value.replaceAll(" ","").replaceAll("\t") == "") {
+        mensaje += "Escribe la contraseña\n";
+    }
 
     if(mensaje) { 
         //alert("Errores en el formulario: " + mensaje);
@@ -20,8 +23,9 @@ function botonEntrar(){
         p.innerHTML = mensaje.replaceAll("\n", "<br>");
         document.getElementById("inicioses").prepend(p);
     }
-    else
+    else {
         document.getElementById("inicioses").submit();
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -30,3 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.getElementById("entrar").addEventListener("click", botonEntrar);
 });
+

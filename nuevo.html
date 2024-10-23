@@ -10,6 +10,7 @@
     <link href="css/big.css" rel="altername stylesheet" title="Tema grande">
     <link href="css/pocCon.css" rel="altername stylesheet" title="Tema poco contraste">
     <link href="css/bigcontrast.css" rel="altername stylesheet" title="Tema poco contraste y grande">
+    <script src="js/script-regis.js"></script>
 </head>
 <body> 
 <!-- Cabecera -->
@@ -44,22 +45,23 @@
 
 <!-- Formulario de registro -->
     <aside id="registro">
-        <form action="index2.html" method="get">
-            <label for="usuario">Nombre de usuario: <input type="text" name="usuario" id="usuario"></label><br>
-            <label for="contra"> Contraseña: <input type="password" name="contra" id="contra"></label><br>
-            <label for="contra2"> Repetir Contraseña: <input type="password" name="contra2" id="contra2"></label><br>
-            <label for="email"> Correo Electrónico: <input type="email" name="correo" id="correo"></label><br>
+        <form action="index2.html" method="get" id="nuevoes">
+            <label for="usuario">Nombre de usuario: <input name="usuario" id="usuario"></label><br>
+            <label for="contra"> Contraseña: <input name="contra" id="contra"></label><br>
+            <label for="contra2"> Repetir Contraseña: <input name="contra2" id="contra2"></label><br>
+            <label for="correo"> Correo Electrónico: <input name="correo" id="correo"></label><br>
             <label for="sexo"> Sexo:</label>
             <select name="sexo" id="sexo">
-                <option value="rigatoni">Hombre</option>
-              <option value="dave">Mujer</option>
-              <option value="pumpernickel">Prefiero no decirlo</option>
+                <option value="">Selecciona una opción</option>
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="nodecir">Prefiero no decirlo</option>
             </select><br>
-            <label for="nacimiento"> Fecha de nacimiento: <input type="date" name="nacimiento" id="nacimiento" max="2025-06-30"></label><br>
-            <label for="ciudad"> Ciudad: <input type="text" name="ciudad" id="ciudad"></label><br>
-            <label for="pais"> País de residencia: <input type="text" name="pais" id="pais"></label><br>
-            <label for="foto"> Foto: <input type="file" name="foto" id="foto"></label><br>
-            <input type="submit" value="Registrarse">
+            <label for="nacimiento"> Fecha de nacimiento: <input name="nacimiento" id="nacimiento" max="2025-06-30"></label><br>
+            <label for="ciudad"> Ciudad: <input name="ciudad" id="ciudad"></label><br>
+            <label for="pais"> País de residencia: <input name="pais" id="pais"></label><br>
+            <label for="foto"> Foto: <input name="foto" id="foto"></label><br>
+            <input type="button" value="registrarse" id="registrarse">
         </form>
     </aside>
     <footer>
