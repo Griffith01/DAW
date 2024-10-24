@@ -112,9 +112,20 @@ function generarTabla() {
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('toggleTable').addEventListener('click', function() {
         const contenedorTabla = document.getElementById('tablaCostes');
+        const toggleButton = document.getElementById('toggleTable');
+
+        // Si la tabla no está generada, la generamos una sola vez
         if (!contenedorTabla.hasChildNodes()) {
             generarTabla();  // Generar la tabla solo una vez
         }
-        contenedorTabla.style.display = contenedorTabla.style.display === 'none' ? 'block' : 'none';
+
+        // Alternar la visibilidad de la tabla y el texto del botón
+        if (contenedorTabla.style.display === 'none' || contenedorTabla.style.display === '') {
+            contenedorTabla.style.display = 'table';  // Cambiar a 'table' para mostrar correctamente
+            toggleButton.textContent = 'Ocultar tabla';
+        } else {
+            contenedorTabla.style.display = 'none';
+            toggleButton.textContent = 'Mostrar tabla';
+        }
     });
 });

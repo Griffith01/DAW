@@ -12,6 +12,10 @@ body {
     color: var(--colorsuave);
 }
 
+#toggleTable{
+    background-color: var(--colormedio);
+}
+
 header{
     background-color: var(--colormedio);
 }
